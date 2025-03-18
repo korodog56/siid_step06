@@ -9,7 +9,8 @@
   margin-bottom: 10px;
 }
 
-.counter-button {
+.counter-button,
+.countDown-button-auto {
   font-size: 16px;
   padding: 10px 20px;
   border: 0;
@@ -21,7 +22,17 @@
   margin: 0 5px;
 }
 
-.counter-button:hover {
+.counter-button:hover,
+.countDown-button-auto:hover {
   opacity: 0.8;
   transition: opacity 0.25s;
+}
+
+.countDown-button {
+  margin-top: 10px;
+}
+
+.countDown-button button {
+  background-color: #0a0;
+  color: #fff;
 }

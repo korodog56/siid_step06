@@ -7,18 +7,32 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1>CountUpButton</h1>
+    <h1>CounterButton</h1>
     <div class="counter">
       <div class="counter-number" id="count">0</div>
+      <button type="button" class="counter-button" id="countDownButton-20">
+        -20
+      </button>
       <button type="button" class="counter-button" id="countDownButton">
         -
       </button>
       <button type="button" class="counter-button" id="countUpButton">+</button>
+      <button type="button" class="counter-button" id="countUpButton-20">
+        +20
+      </button>
       <button type="button" class="counter-button" id="resetButton">
         Reset
       </button>
+      <div class="countDown-button">
+        <button type="button" class="countDown-button-auto" id="gameButton">
+          CountDown
+        </button>
+      </div>
     </div>
     <script src="./counter.js"></script>
-    <script src="./app.js"></script>
+    <script src="./countDownGame.js"></script>
+
+    <!-- step06の練習で使用 -->
+    <!-- <script src="./app.js"></script> -->
   </body>
 </html>

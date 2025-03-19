@@ -24,6 +24,7 @@ const clickHandler = (e) => {
     newCount = count + 20;
   } else {
     newCount = 0;
+    clearInterval(interval);
   }
   console.log(newCount);
   countElm.textContent = newCount;
